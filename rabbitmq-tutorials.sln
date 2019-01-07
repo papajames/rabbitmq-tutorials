@@ -3,9 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "producer-consumer", "producer-consumer", "{2E785C02-3BCE-4D99-BE21-4F17AA81C072}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Producer", "HelloWorld.Producer\HelloWorld.Producer.csproj", "{D43B0B6B-73EA-4E5E-962E-D131E2BC5C8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Consumer", "HelloWorld.Consumer\HelloWorld.Consumer.csproj", "{73ABF2C2-8D82-49BE-983C-2CF99EE2DDF7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D43B0B6B-73EA-4E5E-962E-D131E2BC5C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D43B0B6B-73EA-4E5E-962E-D131E2BC5C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D43B0B6B-73EA-4E5E-962E-D131E2BC5C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D43B0B6B-73EA-4E5E-962E-D131E2BC5C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73ABF2C2-8D82-49BE-983C-2CF99EE2DDF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73ABF2C2-8D82-49BE-983C-2CF99EE2DDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73ABF2C2-8D82-49BE-983C-2CF99EE2DDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73ABF2C2-8D82-49BE-983C-2CF99EE2DDF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D43B0B6B-73EA-4E5E-962E-D131E2BC5C8D} = {2E785C02-3BCE-4D99-BE21-4F17AA81C072}
+		{73ABF2C2-8D82-49BE-983C-2CF99EE2DDF7} = {2E785C02-3BCE-4D99-BE21-4F17AA81C072}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8CC47D53-BB6E-4178-B32C-00D0E55A467C}
